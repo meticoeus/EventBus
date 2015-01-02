@@ -1,10 +1,13 @@
 {
   "name": "EventBus",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "authors": [
     "Justin Bailey <meticoeus@gmail.com>"
   ],
   "license": "n",
+  "main": [
+    "dist/js/EventBus.js"
+  ],
   "ignore": [
     "**/.*",
     "node_modules",
