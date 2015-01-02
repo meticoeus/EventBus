@@ -1,0 +1,25 @@
+{
+  "name": "EventBus",
+  "version": "0.0.1",
+  "authors": [
+    "Justin Bailey <meticoeus@gmail.com>"
+  ],
+  "license": "n",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "gulp",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.3.x"
+  },
+  "devDependencies": {
+    "angular-mocks": "1.3.x"
+  },
+  "resolutions": {
+    "angular": "1.3.x"
+  }
+}
