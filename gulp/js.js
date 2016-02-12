@@ -18,7 +18,7 @@ gulp.task('js', function () {
       .pipe(gulp.dest('dist/js'))
       .pipe(uglify())
       .pipe(rename('EventBus.min.js'))
-    .pipe(sourcemaps.write())
+    .pipe(sourcemaps.write('./'))
     .pipe(gulp.dest('dist/js'))
 })
 

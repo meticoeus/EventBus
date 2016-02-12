@@ -1,7 +1,5 @@
 (function(){ "use strict"; angular.module('eventBus', []); })();
-(function(){ "use strict"; "use strict";
-
-/**
+(function(){ "use strict"; /**
  * Small convenience wrapper around Angular's $rootScope event bus functionality.
  *
  * Adds support for propagating events on only the root scope while still
